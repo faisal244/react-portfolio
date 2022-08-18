@@ -13,7 +13,7 @@ const Navbar = () => {
 		<nav className="app__navbar">
 			<div className="app__navbar-logo">
 				{/* <h6>SOURCE NEW LOGO AND INSERT HERE</h6> */}
-				<img src={images.logo5} alt="logo" />
+				<img src={images.logo6} alt="logo" />
 				{/* <img src={FaRegSmileBeam} alt="logo" /> */}
 			</div>
 
