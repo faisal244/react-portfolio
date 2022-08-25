@@ -6,13 +6,19 @@ import { GrMail } from "react-icons/gr";
 const SocialMedia = () => (
 	<div className="app__social">
 		<div>
-			<FaGithubSquare />
+			<a href="https://github.com/faisal244" target="blank">
+				<FaGithubSquare />
+			</a>
 		</div>
 		<div>
-			<GrMail />
+			<a href="mailto:m.faisal244@gmail.com">
+				<GrMail />
+			</a>
 		</div>
 		<div>
-			<BsLinkedin />
+			<a href="https://linkedin.com/in/faisal244" target="blank">
+				<BsLinkedin />
+			</a>
 		</div>
 	</div>
 );
