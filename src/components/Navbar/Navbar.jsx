@@ -35,9 +35,10 @@ const Navbar = () => {
 					</li>
 				))}
 				{
+					// download CV link
 					<li
 						className="app__flex p-text"
-						key={`link-`}
+						key={`link-download-cv`}
 					>
 						<div />
 						<a
@@ -61,14 +62,7 @@ const Navbar = () => {
 					>
 						<HiX onClick={() => setToggle(false)} />
 						<ul>
-							{[
-								"home",
-								"about",
-								"work",
-								"skills",
-								"contact",
-								// "download CV",
-							].map((item) => (
+							{["home", "about", "work", "skills", "contact"].map((item) => (
 								<li key={item}>
 									<a
 										href={`#${item}`}
@@ -78,10 +72,44 @@ const Navbar = () => {
 									</a>
 								</li>
 							))}
+							{
+								<li key={`link-download-cv`}>
+									<a
+										href="https://github.com/faisal244"
+										target="blank"
+										onClick={() => setToggle(false)}
+									>
+										Download CV
+									</a>
+								</li>
+							}
+							{
+								<li key={`link-download-cv`}>
+									<a
+										href="https://github.com/faisal244"
+										target="blank"
+										onClick={() => setToggle(false)}
+									>
+										Check out my GitHub
+									</a>
+								</li>
+							}
+							{
+								<li key={`link-download-cv`}>
+									<a
+										href="https://www.linkedin.com/in/faisal244/"
+										target="blank"
+										onClick={() => setToggle(false)}
+									>
+										Connect with me on LinkedIn
+									</a>
+								</li>
+							}
 						</ul>
 					</motion.div>
 				)}
 			</div>
+
 			{/* <div className="cv-btn">
 				<a
 					href="https://github.com/faisal244"
