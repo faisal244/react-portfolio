@@ -17,6 +17,7 @@ import redux from "../assets/redux.png";
 import sass from "../assets/sass.png";
 import typescript from "../assets/typescript.png";
 import vue from "../assets/vue.png";
+import cvicon from "../assets/cvicon.png";
 
 import about01 from "../assets/about01.png";
 import about02 from "../assets/about02.png";
@@ -61,6 +62,7 @@ export default {
 	about03,
 	about04,
 	circle,
+	cvicon,
 
 	profile,
 

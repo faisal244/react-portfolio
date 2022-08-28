@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { images } from "../../constants";
 import { AppWrap, MotionWrap } from "../../wrapper";
 import { client } from "../../client";
+// import { FcDocument } from "react-icons/fc";
 
 import "./Footer.scss";
 
@@ -44,19 +45,45 @@ const Footer = () => {
 
 	return (
 		<>
-			<h2 className="head-text">Have a coffee & chat with me</h2>
+			<h2 className="head-text">
+				Like what you've read? Get in touch & chat with me
+			</h2>
 			<div className="app__footer-cards">
 				<div className="app__footer-card">
-					<img src={images.email} alt="email" />
-					<a href="mailto:m.faisal244@gmail.com" className="p-text">
+					<img
+						src={images.email}
+						alt="email"
+					/>
+					<a
+						href="mailto:m.faisal244@gmail.com"
+						className="p-text"
+					>
 						m.faisal244@gmail.com
 					</a>
 				</div>
 
 				<div className="app__footer-card">
-					<img src={images.mobile} alt="mobile" />
-					<a href="tel: +44 07702021386" className="p-text">
+					<img
+						src={images.mobile}
+						alt="mobile"
+					/>
+					<a
+						href="tel: +44 07702021386"
+						className="p-text"
+					>
 						07702021386
+					</a>
+				</div>
+				<div className="app__footer-card">
+					<img
+						src={images.cvicon}
+						alt="download-cv"
+					/>
+					<a
+						href="tel: +44 07702021386"
+						className="p-text"
+					>
+						Download CV
 					</a>
 				</div>
 			</div>
@@ -92,7 +119,11 @@ const Footer = () => {
 							onChange={handleChangeInput}
 						/>
 					</div>
-					<button type="button" className="p-text" onClick={handleSubmit}>
+					<button
+						type="button"
+						className="p-text"
+						onClick={handleSubmit}
+					>
 						{!loading ? "Send Message" : "Sending..."}
 					</button>
 				</div>
