@@ -11,8 +11,8 @@ const Skills = () => {
 	const [skills, setSkills] = useState([]);
 
 	useEffect(() => {
-		const query = '*[_type == "experiences"]';
-		const skillsQuery = '*[_type == "skills"]';
+		const query = '*[_type == "experiences"] | order(order asc)';
+		const skillsQuery = '*[_type == "skills"] | order(order asc)';
 
 		client.fetch(query).then((data) => {
 			setExperiences(data);
@@ -40,7 +40,10 @@ const Skills = () => {
 								className="app__flex"
 								style={{ backgroundColor: skill.bgColor }}
 							>
-								<img src={urlFor(skill.icon)} alt={skill.name} />
+								<img
+									src={urlFor(skill.icon)}
+									alt={skill.name}
+								/>
 							</div>
 							<p className="p-text">{skill.name}</p>
 						</motion.div>
@@ -48,7 +51,10 @@ const Skills = () => {
 				</motion.div>
 				<div className="app__skills-exp">
 					{experiences.map((experience) => (
-						<motion.div className="app__skills-exp-item" key={experience.year}>
+						<motion.div
+							className="app__skills-exp-item"
+							key={experience.year}
+						>
 							<div className="app__skills-exp-year">
 								<p className="bold-text">{experience.year}</p>
 							</div>

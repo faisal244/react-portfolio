@@ -81,6 +81,27 @@
 	}
 }
 
+.cv-link {
+	color: var(--gray-color);
+	text-decoration: none;
+	flex-direction: column;
+
+	text-transform: uppercase;
+	font-weight: 500;
+
+	transition: all 0.3s ease-in-out;
+
+	// &:hover {
+	// 	color: var(--secondary-color);
+	// }
+}
+
+// .cv-btn {
+// 	background-color: red;
+// 	fill: red($color: red);
+// 	// height: 250px;
+// }
+
 .app__navbar-menu {
 	width: 35px;
 	height: 35px;
