@@ -42,7 +42,7 @@ const Navbar = () => {
 					>
 						<div />
 						<a
-							href="https://github.com/faisal244"
+							href="https://docs.google.com/document/d/1q2XBApcuxetqsNKgMc9DT0nUYYZfowh_/edit?usp=sharing&ouid=116861946458425075008&rtpof=true&sd=true"
 							target="blank"
 							className="app__flex p-text cv-link "
 						>
@@ -75,7 +75,7 @@ const Navbar = () => {
 							{
 								<li key={`link-download-cv`}>
 									<a
-										href="https://github.com/faisal244"
+										href="https://docs.google.com/document/d/1q2XBApcuxetqsNKgMc9DT0nUYYZfowh_/edit?usp=sharing&ouid=116861946458425075008&rtpof=true&sd=true"
 										target="blank"
 										onClick={() => setToggle(false)}
 									>
@@ -109,39 +109,6 @@ const Navbar = () => {
 					</motion.div>
 				)}
 			</div>
-
-			{/* <div className="cv-btn">
-				<a
-					href="https://github.com/faisal244"
-					target="blank"
-				>
-					<button>Download CV2</button>
-				</a>
-			</div> */}
-
-			{/* <Stack
-				direction="row"
-				spacing={2}
-			> */}
-			{/* <Button
-					variant="outlined"
-					startIcon={<DeleteIcon />}
-				>
-					Delete
-				</Button> */}
-			{/* <a
-					href="https://github.com/faisal244"
-					target="blank"
-				>
-					{" "}
-					<Button
-						variant="contained"
-						endIcon={<SendIcon />}
-					>
-						Download CV
-					</Button>
-				</a>
-			</Stack> */}
 		</nav>
 	);
 };

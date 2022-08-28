@@ -80,8 +80,9 @@ const Footer = () => {
 						alt="download-cv"
 					/>
 					<a
-						href="tel: +44 07702021386"
+						href="https://docs.google.com/document/d/1q2XBApcuxetqsNKgMc9DT0nUYYZfowh_/edit?usp=sharing&ouid=116861946458425075008&rtpof=true&sd=true"
 						className="p-text"
+						target="blank"
 					>
 						Download CV
 					</a>
