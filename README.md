@@ -1,4 +1,4 @@
-# 20 React: React Portfolio
+# React Portfolio
 
 ## Table of Contents
 
@@ -62,7 +62,33 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 The following animation shows the web application's appearance and functionality:
 
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
+![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](../react-portfolio/src/assets/react-portfolio-gif.gif)
+
+### Back End Content Management System Screenshots:
+
+![Sanity CMS - Add a new Project](../react-portfolio/src/assets/Screenshots/backend-1.png)
+
+![Sanity CMS - Add a new skill icon](../react-portfolio/src/assets/Screenshots/backend-2.png)
+
+![Sanity CMS - Add a new job to the Experiences section](../react-portfolio/src/assets/Screenshots/backend-3.png)
+
+![Sanity CMS - Add a new animated card in the about section](../react-portfolio/src/assets/Screenshots/backend-4.png)
+
+![Sanity CMS - Screenshot of the email inbox that any submitted contact form enquiries go to](../react-portfolio/src/assets/Screenshots/backend-5.png)
+
+### Front End Screenshots:
+
+![Homepage](../react-portfolio/src/assets/Screenshots/frontend-1.png)
+
+![About section](../react-portfolio/src/assets/Screenshots/frontend-2.png)
+
+![My creative portfolio section](../react-portfolio/src/assets/Screenshots/frontend-3.png)
+
+![Skills and Experience section](../react-portfolio/src/assets/Screenshots/frontend-4.png)
+
+![Testimonials section](../react-portfolio/src/assets/Screenshots/frontend-5.png)
+
+![Footer section with Contact form](../react-portfolio/src/assets/Screenshots/frontend-6.png)
 
 ## Contact me
 
@@ -70,7 +96,7 @@ The following animation shows the web application's appearance and functionality
 
 - [Connect with me on linkedin](https://www.linkedin.com/in/faisal244/)
 
-- [View my Portfolio](https://faisal244.github.io/Portfolio/)
+- [View my Portfolio](https://faisal244.github.io/react-portfolio/)
 
 ## My Development Environment
 

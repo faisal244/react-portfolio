@@ -17,7 +17,7 @@ const Testimonial = (index) => {
 	};
 
 	useEffect(() => {
-		const query = '*[_type == "testimonials"]';
+		const query = '*[_type == "testimonials"] | order(order asc)';
 		const brandsQuery = '*[_type == "brands"]';
 
 		client.fetch(query).then((data) => {
@@ -36,7 +36,10 @@ const Testimonial = (index) => {
 			{testimonials.length && (
 				<>
 					<div className="app__testimonial-item app__flex">
-						<img src={urlFor(test.imgurl)} alt="testimonial" />
+						<img
+							src={urlFor(test.imgurl)}
+							alt="testimonial"
+						/>
 						<div className="app__testimonial-content">
 							<p className="p-text">{test.feedback}</p>
 							<div>
@@ -82,7 +85,10 @@ const Testimonial = (index) => {
 						transition={{ duration: 0.5, type: "tween" }}
 						key={brand._id}
 					>
-						<img src={urlFor(brand.imgUrl)} alt={brand.name} />
+						<img
+							src={urlFor(brand.imgUrl)}
+							alt={brand.name}
+						/>
 					</motion.div>
 				))}
 			</div>
