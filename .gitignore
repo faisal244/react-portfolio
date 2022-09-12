@@ -144,3 +144,8 @@ backend_sanity/config/@sanity/default-login.json
 backend_sanity/config/@sanity/form-builder.json
 backend_sanity/config/@sanity/vision.json
 backend_sanity/yarn.lock
+.idea/inspectionProfiles/Project_Default.xml
+.idea/modules.xml
+.idea/prettier.xml
+.idea/react-portfolio.iml
+.idea/vcs.xml
