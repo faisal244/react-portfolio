@@ -3,10 +3,6 @@ import { HiMenuAlt4, HiX } from "react-icons/hi";
 import { motion } from "framer-motion";
 import { images } from "../../constants";
 
-import Button from "@mui/material/Button";
-import SendIcon from "@mui/icons-material/Send";
-import Stack from "@mui/material/Stack";
-
 // import { GoCode, GoDeviceCamera } from "react-icons/go";
 import { FaRegSmileBeam } from "react-icons/fa";
 

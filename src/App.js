@@ -2,7 +2,7 @@ import React from "react";
 
 import {
 	About,
-	About2,
+	// About2,
 	Footer,
 	Header,
 	Skills,
