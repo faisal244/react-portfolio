@@ -80,7 +80,7 @@ const Footer = () => {
 						alt="download-cv"
 					/>
 					<a
-						href="https://docs.google.com/document/d/1q2XBApcuxetqsNKgMc9DT0nUYYZfowh_/edit?usp=sharing&ouid=116861946458425075008&rtpof=true&sd=true"
+						href="https://drive.google.com/file/d/1TrLFdWV9HvxCQpghFSNMaQE89n_vuPQn/view?usp=sharing"
 						className="p-text"
 						target="blank"
 					>
