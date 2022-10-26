@@ -36,7 +36,9 @@ import logo7 from "../assets/logo7.png";
 import logo8 from "../assets/logo8.png";
 import logo9 from "../assets/logo9.png";
 import profile from "../assets/profile.png";
+import profile2 from "../assets/profile2.jpeg";
 
+// eslint-disable-next-line
 export default {
 	email,
 	mobile,
@@ -65,6 +67,7 @@ export default {
 	cvicon,
 
 	profile,
+	profile2,
 
 	logo1,
 	logo2,

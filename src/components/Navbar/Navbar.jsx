@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { images } from "../../constants";
 
 // import { GoCode, GoDeviceCamera } from "react-icons/go";
-import { FaRegSmileBeam } from "react-icons/fa";
+// import { FaRegSmileBeam } from "react-icons/fa";
 
 import "./Navbar.scss";
 const Navbar = () => {
