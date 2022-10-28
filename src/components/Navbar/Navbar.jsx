@@ -38,7 +38,7 @@ const Navbar = () => {
 					>
 						<div />
 						<a
-							href="https://drive.google.com/file/d/1TrLFdWV9HvxCQpghFSNMaQE89n_vuPQn/view?usp=sharing"
+							href="https://docs.google.com/document/d/1hsaTT6Wy2Twc09yIJk_iT6BpxK4VqLL-/edit?usp=sharing&ouid=116861946458425075008&rtpof=true&sd=true"
 							target="blank"
 							className="app__flex p-text cv-link "
 						>
@@ -71,7 +71,7 @@ const Navbar = () => {
 							{
 								<li key={`link-download-cv`}>
 									<a
-										href="https://drive.google.com/file/d/1TrLFdWV9HvxCQpghFSNMaQE89n_vuPQn/view?usp=sharing"
+										href="https://docs.google.com/document/d/1hsaTT6Wy2Twc09yIJk_iT6BpxK4VqLL-/edit?usp=sharing&ouid=116861946458425075008&rtpof=true&sd=true"
 										target="blank"
 										onClick={() => setToggle(false)}
 									>
